@@ -10,7 +10,7 @@ module.exports = {
 	/**
 	 * Database option (mongodb, postgresql) https://www.prisma.io/docs/reference/database-reference/connection-urls
 	 * @type {string} */
-	database: process.env.DATABASE || "postgresql",
+	database: process.env.DATABASE || "mongodb+srv://duc15121:duc15122008@discordmusic-bot.losjpgj.mongodb.net/?retryWrites=true&w=majority",
 	/**
 	 * URL to the preferred database (Prisma ORM)
 	 * @type {string} */
