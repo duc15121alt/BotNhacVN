@@ -6,7 +6,7 @@ module.exports = {
 	/**
 	 * Name of the bot
 	 * @type {string} */
-	name: "InsertNameHereBot",
+	name: "BotNhac",
 	/**
 	 * Database option (mongodb, postgresql) https://www.prisma.io/docs/reference/database-reference/connection-urls
 	 * @type {string} */
@@ -22,19 +22,19 @@ module.exports = {
 	/**
 	 * UID for the Admin(s) of the bot
 	 * @type {string | string[]} */
-	ownerId: process.env.DEVUID || ["AdminID"],
+	ownerId: process.env.DEVUID || ["590403231335579661"],
 	/**
 	 * Token for bot login
 	 * @type {string} */
-	token: process.env.TOKEN || "",
+	token: process.env.TOKEN || "MTE4Mjk0MzM5NDMzMTM2OTUyMg.GMr_ks.iKlCNylqZ6lmiHF52v_JHCuVXGGo82Rrij9odA",
 	/**
 	 * ID of the bot
 	 * @type {string} */
-	clientId: process.env.CLIENTID || "",
+	clientId: process.env.CLIENTID || "1182943394331369522",
 	/**
 	 * Secret Token for bot login
 	 * @type {string} */
-	clientSecret: process.env.CLIENTSECRET || "",
+	clientSecret: process.env.CLIENTSECRET || "wiwA3wU98eFMPFAM931wWGid2OuT-wm9",
 
 	/**
 	 * API configuration
